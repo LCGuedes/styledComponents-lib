@@ -1,11 +1,6 @@
-import BoxComponent from "./components/Box"
-import Teste from "./teste"
+  /* import BoxComponent from "./components/Box"
+ */import Container from "./components/Container"
 
-import PageDesktop from "./pages/desktop/index";
-import PageMobile from "./pages/mobile/index";
-
-const render = "mobile";
-//const render = "desktop"
 
 function App() {
   
@@ -13,7 +8,19 @@ function App() {
   return (
     <>
    
-     <BoxComponent backgroundColor="red" borderRadius="24px" fontSize="12px" fontWeight="700" Height="100vh"/>
+{/*      <BoxComponent backgroundColor="red" borderRadius="24px" fontSize="12px" fontWeight="700" Height="100vh"/>
+ */}
+    <Container
+      width="500px"
+      height="500px"
+      background="red"
+      radius="20px"
+      color="#fff"
+      fontSize="46px"
+    >
+      {<h1>
+        testes</h1>}
+     </Container>
     </>
      
   )
