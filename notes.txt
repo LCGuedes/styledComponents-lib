@@ -1,0 +1,6 @@
+ future features:
+
+  1- Um jeito de cadastrar automaticamente uma prop digitada inline não pre-existente;
+
+    - Criar umfiltro para verificar se aquela propriedade existe, caso contrário adicionar automaticamente ao obj;
+
