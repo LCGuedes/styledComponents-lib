@@ -8,8 +8,8 @@ const defaultTheme = {
     fontSize: "40px"
 };
 
-export const StyledContainer = styled.div(
+ export const StyledContainer = styled.div(
     props => PassingProps(
         props, defaultTheme
     )
-);
+);  
