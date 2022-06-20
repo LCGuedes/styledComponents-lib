@@ -10,6 +10,7 @@ function App() {
       borderRadius="20px"
       color="#fff"
       fontSize="46px"
+      
     >
       {<h1>
         testes</h1>}
