@@ -8,7 +8,7 @@ function SwapProps(defaultObj, defaultTheme) {
       
         for(let j = 0; j < themeArray.length; j++) {
 
-          if(objArray[i][0] === themeArray[j][0]) {
+          if(objArray[i][1] === undefined && objArray[i][0] === themeArray[j][0]) {
              objArray[i][1] = themeArray[j][1];
           };
 
