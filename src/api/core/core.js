@@ -4,9 +4,16 @@ const CssProperties = (props, defaultProps) => {
 
     let cssProperties = {
         background: props.styles.background,
-         height: props.styles.height,
+        height: props.styles.height,
         width: props.styles.width,
+        border: props.styles.border,
+        outline: props.styles.outline,
+        borderBottom: props.styles.borderBottom,
         borderRadius: props.styles.borderRadius,
+
+        padding: props.styles.padding,
+        paddingTop: props.styles.paddingTop,
+        
         marginLeft: props.styles.marginLeft, 
         opacity: props.styles.opacity,
         fontSize: props.styles.fontSize,
@@ -16,7 +23,7 @@ const CssProperties = (props, defaultProps) => {
     if(defaultProps) {
         return SwapProps(cssProperties, defaultProps);
     } else {
-        return defaultObj;
+        return cssProperties;
     };
 
 };

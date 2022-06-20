@@ -1,6 +1,28 @@
+FLUXO:
+
+  1) Apenas com as propriedades inline:
+
+    - Propriedade é passada ao componente(função) declarado -> O componente(função) recebe as propriedades em um objeto ({...styles} -> {background: "red", opacity: "0.8"}) -> O componente(Css) recebe o objeto (props.styles) -> O objeto é passado como parâmetro para a PassingProps() -> Objeto é passado como parâmetro para a CssPropries() -> Os valores do objeto são passados como valores para outro objeto que possui as mesmas chaves -> O objeto clone é retornado para o componente css.
+
+  2) Quando é passado um Objeto theme:
+
+    -
+
+
+  ---------------------------------------------------------------------------------------------------------------------------------------------
+
  future features:
 
   1- Um jeito de cadastrar automaticamente uma prop digitada inline não pre-existente;
 
     - Criar umfiltro para verificar se aquela propriedade existe, caso contrário adicionar automaticamente ao obj;
+-----------------------------------------------------------------------------------------------------------------------
 
+- sobrescrever as propriedades css do theme no inline;
+
+    - Criar algum tipo de escutador para mudanças nas props (css inline);
+    - 
+
+--------------------------------------------
+
+- espécie de usestate
